@@ -5,19 +5,11 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif; 
 }
 
 nav a, footer a {
     font-family: 'Raleway', sans-serif;
-}
-nav a {
     text-decoration: none;
     color: #434455;
-    font-weight: bold;
-}
-
-footer a {
-    color: #434455;
-    text-decoration: none;
 }
