@@ -1,30 +1,41 @@
-.footer {
-    background-color: #2e2f42;
-    padding: 20px;
+/* Загальний стиль для заголовка секції */
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* Стиль для проектів */
+.projects {
+    margin-top: 40px;
+}
+
+.project-item {
+    margin-bottom: 30px;
     text-align: center;
 }
 
-
-.footer .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.footer .studio {
-    color: #f4f4fd;
-}
-
-.footer .footer-text {
-    line-height: 1.5;
-    color: var(--footer-text-color, #F4F4FD);
+.project-title {
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-weight: 500;
 }
 
-:root {
-    --footer-text-color: #F4F4FD;
+.project-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Стиль для зображень */
+.project-item img {
+    width: 360px;
+    height: auto;
+    margin-bottom: 15px;
 }
