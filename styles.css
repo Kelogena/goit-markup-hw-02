@@ -1,36 +1,23 @@
-:root {
-    --main-title-color: #ffffff;
-    --second-title-color: #212121;
-    --main-text-color: #757575;
-    --third-text-color: #9da4bd;
-    --fourth-text-color: #303030;
-    --accent-color: #2196F3;
-    --main-btn-color: #ffffff;
-    --second-btn-color: #2196F3;;
-    --header-text-color:#000000;
-    --footer-color:#2F303A;
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: #434455; 
+    background-color: #FFFFFF; 
 }
 
-.header {
-    background color: #ffffff;
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
 }
 
-Body{
-    font font-family: Roboto, sans-serif;
-   
+nav a, footer a {
+    font-family: 'Raleway', sans-serif;
 }
-.list {
-    list-style: none;
-}
-.link {
+nav a {
     text-decoration: none;
-}
-.header-link:hover{
-    color: ;
+    color: #434455;
+    font-weight: bold;
 }
 
-/* Footer */
-
-footer{
-    background-color: var(--footer-color);
+footer a {
+    color: #434455;
+    text-decoration: none;
 }
