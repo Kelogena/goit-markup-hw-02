@@ -16,13 +16,10 @@ body{
     background-color: var(--primary-bg-color);
     color: #434455;
     font-size: var(--common-font-size);
-    line-height: var(--common-line-height);
     font-weight: var(--regular-font-weight);
     letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
 }
-/* Header */
-/* Logo */
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
